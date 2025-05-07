@@ -1,0 +1,11 @@
+body {
+  background-color: #f0f0f0 !important;
+}
+.job-status-success {
+  background-color: #00ff99 !important;
+  color: #222 !important;
+}
+.job-status-failed {
+  background-color: #ff4444 !important;
+  color: #fff !important;
+}
