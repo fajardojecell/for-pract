@@ -1,31 +1,23 @@
-/* First job - RED */
-.pane.build-row:nth-of-type(1) {
+/* Red for #5 TEST-JOB1 */
+div[title*="#5 TEST-JOB1"], .dashboard td[title*="#5 TEST-JOB1"] {
     background: #e74c3c !important; /* Red */
     color: #fff !important;
 }
 
-/* Second job - YELLOW */
-.pane.build-row:nth-of-type(2) {
+/* Yellow for #4 TEST-JOB1 */
+div[title*="#4 TEST-JOB1"], .dashboard td[title*="#4 TEST-JOB1"] {
     background: #f1c40f !important; /* Yellow */
     color: #222 !important;
 }
 
-/* Third job - BLUE */
-.pane.build-row:nth-of-type(3) {
+/* Blue for Pretty Me TEST-JOB1 */
+div[title*="Pretty Me TEST-JOB1"], .dashboard td[title*="Pretty Me TEST-JOB1"] {
     background: #3498db !important; /* Blue */
     color: #fff !important;
 }
 
-/* Fourth job - GREEN */
-.pane.build-row:nth-of-type(4) {
+/* Green for TEST-JOB1 (as a fallback) */
+div[title*="TEST-JOB1"], .dashboard td[title*="TEST-JOB1"] {
     background: #27ae60 !important; /* Green */
     color: #fff !important;
-}
-
-/* Optional: Make text bold and larger for visibility */
-.pane.build-row {
-    font-weight: bold !important;
-    font-size: 1.2em !important;
-    border-radius: 10px !important;
-    border: 2px solid #222 !important;
 }
