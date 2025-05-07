@@ -1,11 +1,29 @@
-body {
-  background-color: #f0f0f0 !important;
+/* Change the background color of job status boxes */
+.pane.build-row, .job-status-success, .job-status-blue {
+    background-color: #4A90E2 !important;  /* Example: blue */
+    color: #fff !important;                /* White text */
+    border-radius: 10px !important;        /* Rounded corners */
+    border: 2px solid #222 !important;     /* Border for visibility */
 }
-.job-status-success {
-  background-color: #00ff99 !important;
-  color: #222 !important;
+
+/* Change the text color inside the job box */
+.pane.build-row * {
+    color: #fff !important;
 }
-.job-status-failed {
-  background-color: #ff4444 !important;
-  color: #fff !important;
+
+/* Change the background of the job name bar */
+.pane-header {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+/* OPTIONAL: Change the orange background to something else */
+#main-panel {
+    background-color: #f5f5f5 !important; /* Light gray */
+}
+
+/* Make the job boxes a bit larger for emphasis */
+.pane.build-row {
+    min-height: 100px !important;
+    font-size: 1.2em !important;
 }
